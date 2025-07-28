@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Selamat Ulang Tahun, Sayang!</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ffdde1, #ee9ca7);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      padding: 50px;
+      color: #fff;
+      animation: fadeIn 2s ease-in;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    .cake {
+      font-size: 100px;
+      animation: bounce 1s infinite;
+    }
+
+    .love {
+      color: red;
+      font-size: 30px;
+    }
+
+    .message {
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 20px;
+      padding: 20px;
+      margin: 30px auto;
+      width: 80%;
+      max-width: 600px;
+      font-size: 20px;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 18px;
+    }
+
+    .controls {
+      margin-top: 20px;
+    }
+
+    .controls button {
+      background-color: #25D366;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 10px;
+      font-size: 16px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Musik Otomatis -->
+  <audio id="bgMusic" autoplay loop>
+    <source src="music.mp3" type="audio/mpeg">
+    Browsermu tidak mendukung audio.
+  </audio>
+
+  <div class="controls">
+    <button onclick="document.getElementById('bgMusic').play()">▶ Play</button>
+    <button onclick="document.getElementById('bgMusic').pause()">⏸ Pause</button>
+  </div>
+
+  <div class="cake">🎂</div>
+  <h1>Selamat Ulang Tahun, Sayang! 🎉</h1>
+  <p class="love">❤️❤️❤️</p>
+
+  <div class="message">
+    <p>Hai Nunu yang paling gemoyy di dunia! 🥰</p>
+    <p>Hari ini adalah hari spesial kamu. Aku cuma mau bilang...</p>
+    <p><strong>SELAMAT ULANG TAHUN! 🎈</strong></p>
+    <p>Semoga kamu makin cantik, makin lucu, makin sabar menghadapi aku yang ngeselin ini 🤭</p>
+    <p>Dan semoga hubungan kita selalu bersama, secerah masa depan kita berdua (aminn😺)</p>
+    <p>Aku sayang kamu... mungkin lagunya bukan lagu yg gembira, tapi lagu ini memiliki makna yg dalam. Bagiku lagu ini mengingatkan kita berpikir tentang kita di masa depan, dimana setiap tahunnya kita pasti merayakan bertambahnya usia, dann usia juga tidak ada yg tahu sampai kapan. Aku harap kita saling sayang hingga kita bertemu di RUANG BARU itu. </p>
+    <p>Semogaa kamu senang dengan apa yang aku berikan ke kamu, aku akan tetap selalu seperti onay yang kamu kenal. Selalu ingin menjadi yang terbaik untuk kamu, my nunu.</p>
+  </div>
+
+  <div class="footer">
+    <p>— Dari pacarmu yang ganteng dan selalu cinta kamu 💕</p>
+  </div>
+
+  <!-- Tombol WhatsApp -->
+  <div style="margin-top: 30px;">
+    <a href="https://wa.me/6282122368998?text=Hai%20onay%20sayang%2C%20aku%20udah%20baca%20ucapan%20ultahnya%20%F0%9F%98%8D" target="_blank">
+      <button>💬 Balas Aku di WhatsApp</button>
+    </a>
+  </div>
+
+</body>
+</html>
